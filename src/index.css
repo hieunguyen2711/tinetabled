@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+}
+
+th {
+  width: 120px;
+  padding-top:25px;
+  padding-bottom:30px;
+}
+
+td {
+  padding: 5px;
+}
+
+.time {
+  height: 40px;
+}
+
+.Event {
+  text-align: center;
+  /* border-radius: 5px;
+  text-align: center;
+  font-weight: bold; */
+  padding: 0;
+}
+
+.Event h6{
+  text-align: center;
+  /* border-radius: 5px;
+  text-align: center;
+  font-weight: bold; */
+  padding-top: 0;
+}
+
+
+
+/* Dynamic styles based on color */
+.red {
+  background-color: red;
+  /* color: black; */
+}
+
+.blue {
+  background-color: rgb(109, 109, 241);
+  /* color: white; */
+}
+
+.green {
+  background-color: rgb(180, 220, 180);
+  /* color: white; */
+}
+
+.pink {
+  background-color: rgb(220, 180, 215);
+}
