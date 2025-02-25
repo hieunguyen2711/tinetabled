@@ -22,7 +22,7 @@ const Calendar = () => {
                         <td className="time">8 am </td>
                         <Event event='Fancy Dinner 🎩' color ='green' location='QC Sushi'/>
                         <td></td>
-                        <td></td>
+                        <Event event='Test Event' color ='red' location='QC Sushi'/>
                         <td></td>
                         <td></td>
                         <Event event='Yolk 🍳' color ='green' location='Undecided'/>
